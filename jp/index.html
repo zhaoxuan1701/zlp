@@ -17,8 +17,8 @@
   <!-- <meta property="fb:app_id" content="1436986369879554">-->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="GUCCI 4 ROOMS" />
-  <meta property="og:url" content="http://gucci4rooms.gucci.com/jp/" />
-  <meta property="og:image" content="http://gucci4rooms.gucci.com/img/ogp_img.png" />
+  <!--<meta property="og:url" content="http://gucci4rooms.gucci.com/jp/" />-->
+  <!--<meta property="og:image" content="http://gucci4rooms.gucci.com/img/ogp_img.png" />-->
   <link href="../img/Favicon.png" rel="shortcut icon" />
   <link href="../img/app-icon.png" rel="apple-touch-icon" />
   <!--link(rel="stylesheet" href="https://cdn.rawgit.com/qrac/yakuhanjp/master/dist/css/yakuhanjp.css")-->
@@ -298,7 +298,7 @@
     </div>
    </section>
    <div id="ui">
-    <a href="#" target="_blank" class="logo"><img src="../img/gucci_logo.svg" data-expand-svg="" /></a>
+    <a href="#" target="_blank" class="logo"><img src="../img/logo1.png" height="40"/></a>
     <a data-href="#top" class="topBtn"><span></span><span></span></a>
     <a data-href="#map" class="mapBtn"><span></span><span></span></a>
     <a class="fullBtn toggle"><span></span><span></span></a>
@@ -328,5 +328,17 @@
     </div>
    </section> 
   </div>
+  
+  
+  <script>
+  	window.onload=function (){
+ 		document.getElementsByClassName('herbarium')[0].style.cssText="visibility: visible; opacity: 1; transition: all 0.7s cubic-bezier(0.39, 0.575, 0.565, 1);";
+ 		document.getElementsByClassName('herbarium')[0].innerHTML = '<img src="../img/_map_herbarium_on.png" style="transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);"><img src="../img/_map_herbarium_on_on.png" class="_on" style="transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);">'
+ 		
+ 		document.getElementsByClassName('garden')[0].style.cssText="visibility: visible; opacity: 1; transition: all 0.7s cubic-bezier(0.39, 0.575, 0.565, 1);";
+ 		document.getElementsByClassName('garden')[0].innerHTML = '<img src="../img/_map_garden_on.png"><img src="../img/_map_garden_on_on.png" class="_on">">'
+ 		
+ 	}
+  </script>
  </body>
 </html>
