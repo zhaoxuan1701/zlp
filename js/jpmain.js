@@ -1259,37 +1259,37 @@ function(a) {
                 co.Ease.ease_out_quad).method(function() {
                     d.$jq.removeClass("loading")
                 }).start()
-            }).weit().imgLoad("../img/_map_words_on.png",
+            }).weit().imgLoad("./../img/_map_words_on.png",
             function(a) {
                 return d.showIn(d.layers.words, a)
-            }).weit().imgLoad("../img/_map_herbarium_on.png",
+            }).weit().imgLoad("./../img/_map_herbarium_on.png",
             function(a) {
                 return d.showIn(d.layers.herbarium, a)
-            }).weit().imgLoad("../img/_map_garden_on.png",
+            }).weit().imgLoad("./../img/_map_garden_on.png",
             function(a) {
                 return d.showIn(d.layers.garden, a)
-            }).weit().imgLoad("../img/_map_ghost_on.png",
+            }).weit().imgLoad("./../img/_map_ghost_on.png",
             function(a) {
                 return d.showIn(d.layers.ghost, a)
-            }).weit().imgLoad("../img/_map_ghost_1.png",
+            }).weit().imgLoad("./../img/_map_ghost_1.png",
             function(a) {
                 return d.showIn(d.layers.icon1, a)
-            }).weit().imgLoad("../img/_map_ghost_2.png",
+            }).weit().imgLoad("./../img/_map_ghost_2.png",
             function(a) {
                 return d.showIn(d.layers.icon2, a)
-            }).weit().imgLoad("../img/_map_ghost_3.png",
+            }).weit().imgLoad("./../img/_map_ghost_3.png",
             function(a) {
                 return d.showIn(d.layers.icon3, a)
-            }).weit().imgLoad("../img/_map_words_on_on.png",
+            }).weit().imgLoad("./../img/_map_words_on_on.png",
             function(a) {
                 return d.layers.words.append(a.addClass("_on"))
-            }).imgLoad("../img/_map_herbarium_on_on.png",
+            }).imgLoad("./../img/_map_herbarium_on_on.png",
             function(a) {
                 return d.layers.herbarium.append(a.addClass("_on"))
-            }).imgLoad("../img/_map_garden_on_on.png",
+            }).imgLoad("./../img/_map_garden_on_on.png",
             function(a) {
                 return d.layers.garden.append(a.addClass("_on"))
-            }).imgLoad("../img/_map_ghost_on_on.png",
+            }).imgLoad("./../img/_map_ghost_on_on.png",
             function(a) {
                 return d.layers.ghost.append(a.addClass("_on"))
             }).onComplete(function() {
