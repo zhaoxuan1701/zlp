@@ -41,9 +41,9 @@
 	    padding-bottom: 60px;
 	        margin-bottom: 30px;
 	}
-</style> 
+</style>
 <style type="text/css">
-	
+
 </style>
  </head>
  <body>
@@ -83,7 +83,7 @@
      <!--<div class="ghost"></div>-->
      <div class="herbarium"></div>
      <div class="garden"></div>
-     
+
      <!--<div class="words"></div>-->
      <div class="icon3"></div>
      <div class="icon2"></div>
@@ -93,7 +93,7 @@
      <a href='../demo.html'></a>
      <a href="../demo.html"></a>
      <a data-href="#herbarium"></a>
-     
+
      <a data-href="#ghost"></a>
     </div>
    </section>
@@ -326,18 +326,30 @@
     <div class="right">
      <!--.bg-->
     </div>
-   </section> 
+   </section>
   </div>
-  
+
+  <style type="text/css">
+  	.herbarium{
+  		visibility: visible!important;
+  		opacity: 1!important;
+  		transition: all 0.7s cubic-bezier(0.39, 0.575, 0.565, 1)!important;
+  	}
+  	.garden{
+  		visibility: visible!important;
+  		opacity: 1!important;
+  		transition: all 0.7s cubic-bezier(0.39, 0.575, 0.565, 1)!important;
+  	}
+  </style>
  <!-- https://raw.githubusercontent.com/zhaoxuan1701/zlp/master/img/_map_garden_on.png-->
   <script>
 //	window.onload=function (){
-   		document.getElementsByClassName('herbarium')[0].style.cssText="visibility: visible!important; opacity: 1!important; transition: all 0.7s cubic-bezier(0.39, 0.575, 0.565, 1)!important;";
+// 		document.getElementsByClassName('herbarium')[0].style.cssText="visibility: visible!important; opacity: 1!important; transition: all 0.7s cubic-bezier(0.39, 0.575, 0.565, 1)!important;";
 // 		document.getElementsByClassName('herbarium')[0].innerHTML = '<img src="https://raw.githubusercontent.com/zhaoxuan1701/zlp/master/img/_map_herbarium_on.png" style="transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);"><img src="https://raw.githubusercontent.com/zhaoxuan1701/zlp/master/img/_map_herbarium_on_on.png" class="_on" style="transition: all 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);">'
-// 		
-   		document.getElementsByClassName('garden')[0].style.cssText="visibility: visible!important; opacity: 1!important; transition: all 0.7s cubic-bezier(0.39, 0.575, 0.565, 1)!important;";
+//
+// 		document.getElementsByClassName('garden')[0].style.cssText="visibility: visible!important; opacity: 1!important; transition: all 0.7s cubic-bezier(0.39, 0.575, 0.565, 1)!important;";
 // 		document.getElementsByClassName('garden')[0].innerHTML = '<img src="https://raw.githubusercontent.com/zhaoxuan1701/zlp/master/img/_map_garden_on.png"><img src="https://raw.githubusercontent.com/zhaoxuan1701/zlp/master/img/_map_garden_on_on.png" class="_on">'
-// 		
+//
 // 	}
   </script>
  </body>
