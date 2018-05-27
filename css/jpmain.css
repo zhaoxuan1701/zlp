@@ -806,7 +806,7 @@ html[lang=en] #content section#top .text1 {
 	}
 
 	#content section#about .box .read h2 {
-		width: 344px;
+		width: 344px!important;
 		height: 20px;
 		padding-bottom: 0;
 		margin-bottom: 14px

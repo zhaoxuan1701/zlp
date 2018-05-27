@@ -109,9 +109,9 @@
     </div>
     <div class="info modal toggle">
      <div class="box">
-      <h3><img src="../img/name_manabe.svg" alt="" /><p class="jp">真鍋大度</p></h3>
-      <p class="read">「GUCCI WORDS ROOM」の壁に投影される魂をもつかのように揺らめく文字。<br /> そこから現れるのは、イザナギやイザナミなど日本の神話に登場する神々や生き物の姿。<br /> それらは、古代日本の神代文字を元にデザインされています。<br /> 放たれた矢の先に新たなイメージが浮かびあがり愛や憎しみ、嫉妬など、<br /> 生々しい感情が行き交う物語を想起させます。<br /> 神話の世界とミケーレのデザイン、そしてプログラミングによって作られた世界を<br /> 融合したインスタレーションとなっています。</p>
-      <p class="note0">荒木夏実（森美術館キュレーター）</p>
+      <h3><img src="../img/name_manabe.svg" alt="" /><p class="jp">简介</p></h3>
+      <p class="read">这是一个有关于，一名上班族病态工作的一天，他努力的工作却得不到应该有的结果，最后他拿着比别人少的工资病态的努力着，最后进入医院的过程；我想传达一个让上班族认识到自己生活多多少少是存在问题的思想，想健康的生活首先得认清现状并且爱惜自己。</p>
+      <!--<p class="note0">荒木夏実（森美術館キュレーター）</p>-->
       <p class="note">Programmer: Daito Manabe (Rhizomatiks Research)<br /> Producer: Hidenori Chiba (Rhizomatiks)<br /> Director: Kenichiro Shimizu<br /> Illustrator: Tetsuya Tatamitani<br /> Composer:Taeji Sawai</p>
      </div>
      <a class="close btn"></a>
@@ -130,16 +130,16 @@
      <div class="bg"></div>
      <div class="box">
       <div class="title"></div>
-      <h2><img src="../img/name_chinatsu.svg" alt="BY CHIHARU SHIOTA" /></h2>
+      <h2 style="font-weight: normal;letter-spacing: 2px;font-size: 24px;font-family: '微软雅黑';"><!--<img src="../img/name_chinatsu.svg" alt="BY CHIHARU SHIOTA" />--> open this video</h2>
       <a class="profile">INTRODUCTION</a>
       <a class="moNextBtn"></a>
      </div>
     </div>
     <div class="info modal toggle">
      <div class="box">
-      <h3><img src="../img/name_chinatsu.svg" alt="BY CHIHARU SHIOTA" /><p class="jp">塩田千春</p></h3>
-      <p class="read">「GUCCI HERBARIUM ROOM」に張りめぐらされた真っ赤な糸。<br /> 奥に見えるのは、ついさっきまで誰かが使っていたかのように見えるベッド。<br /> 赤い糸は、人の命や絆の温かさと同時に拘束される息苦しさをも感じさせます。<br /> 美しくも不穏なムード漂うこのインスタレーションを制作した塩田千春は<br /> ベルリンを拠点に活躍中。2015年には国際的なアートの祭典<br /> 「ヴェネツィア・ビエンナーレ」の日本代表に選ばれました。<br /> 「不在の中の存在」をテーマにしてきた彼女のエッセンスが<br /> ミステリアスな部屋に充満しています。</p>
-      <p class="note0">荒木夏実（森美術館キュレーター）</p>
+      <h3><img src="../img/name_manabe.svg" alt="" /><p class="jp">简介</p></h3>
+      <p class="read">这是一个有关于，一名上班族病态工作的一天，他努力的工作却得不到应该有的结果，最后他拿着比别人少的工资病态的努力着，最后进入医院的过程；我想传达一个让上班族认识到自己生活多多少少是存在问题的思想，想健康的生活首先得认清现状并且爱惜自己。</p>
+      <!--<p class="note0">荒木夏実（森美術館キュレーター）</p>-->
      </div>
      <a class="close btn"></a>
     </div>
@@ -351,6 +351,11 @@
         document.getElementsByClassName('garden')[0].style.cssText="visibility: visible!important; opacity: 1!important; transition: all 0.7s cubic-bezier(0.39, 0.575, 0.565, 1)!important;";
         document.getElementsByClassName('garden')[0].innerHTML = '<img src="https://raw.githubusercontent.com/zhaoxuan1701/zlp/master/img/_map_garden_on.png"><img src="https://raw.githubusercontent.com/zhaoxuan1701/zlp/master/img/_map_garden_on_on.png" class="_on">';
 
+    }
+    var herbarium = document.getElementById('herbarium')
+    var her_btn = herbarium.getElementsByClassName('moNextBtn')[0];
+    her_btn.onclick = function(){
+    	
     }
 	// window.onload=function (){
 	// 	document.getElementsByClassName('herbarium')[0].style.cssText="visibility: visible!important; opacity: 1!important; transition: all 0.7s cubic-bezier(0.39, 0.575, 0.565, 1)!important;";
